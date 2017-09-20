@@ -28,7 +28,7 @@
     <!-- Phone -->
     <vcard:hasTelephone>+33476635200</vcard:hasTelephone>
     <!-- Unique Identifier -->
-   <!-- FIXME <dct:identifier>http://orcid.org/0000-0001-9993-4003</dct:identifier> -->
+    <dct:identifier>https://orcid.org/0000-0003-2936-8047</dct:identifier>
     <!-- Organisation. Use the PIC from the European Commission. CNRS PIC -->
     <eposap:affiliation>PIC:999997930</eposap:affiliation>
     <!-- Language for contact -->
@@ -100,7 +100,7 @@
     <!-- Qualification -->
     <schema:qualifications>Engineer, technical leader of the RESIF Data Center</schema:qualifications>
     <!-- CV It could be a webpage or electronic document. -->
-     <vcard:hasURL>https://www.isterre.fr/spip.php?page=auteur&id_auteur=59&lang=fr</vcard:hasURL>
+     <vcard:hasURL>https://isterre.fr/auteur/pequegnat-catherine</vcard:hasURL>
   </eposap:Person>
 
   <!-- EPOS Person -->
@@ -123,8 +123,8 @@
     <!-- Phone -->
     <vcard:hasTelephone>+</vcard:hasTelephone>
     <!-- Unique Identifier -->
-    <dct:identifier>Violaine.Louvet@univ-grenoble-alpes.fr</dct:identifier>
-    <!-- Organisation. Use the PIC from the European Commission. -CNRS PIC ->
+    <dct:identifier>mailto:Violaine.Louvet@univ-grenoble-alpes.fr</dct:identifier>
+    <!-- Organisation. Use the PIC from the European Commission. -CNRS PIC -->
     <eposap:affiliation>PIC:999997930</eposap:affiliation>
     <!-- Language for contact -->
     <dct:language>
@@ -143,7 +143,8 @@
     <!-- Postal Address -->
     <vcard:hasAddress>
       <vcard:Address>
-          <vcard:street-address>Université Grenoble Alpes,CS 40700 </vcard:street-address>
+        <vcard:street-address>Université Grenoble Alpes,CS 40700 </vcard:street-address>
+        <vcard:locality>Grenoble</vcard:locality>
         <vcard:postal-code>38058</vcard:postal-code>
         <vcard:country-name>France</vcard:country-name>
       </vcard:Address>
@@ -181,7 +182,6 @@
     <vcard:organization-name xml:lang="fr">Centre de données sismologiques du Réseau Sismologique et géodésique Français</vcard:organization-name>
     <!-- Postal Address -->
     <vcard:hasAddress>
-      <vcard:Address>
        <vcard:street-address>Université Grenoble Alpes,ISTerre,CS 40700 </vcard:street-address>
         <vcard:locality>Grenoble Cedex 9</vcard:locality>
         <vcard:postal-code>38058</vcard:postal-code>
