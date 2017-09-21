@@ -24,7 +24,7 @@
       </vcard:Address>
     </vcard:hasAddress>
     <!-- Email -->
-    <vcard:hasEmail>datacenter@resif.fr</vcard:hasEmail>
+    <vcard:hasEmail>mailto:datacenter@resif.fr</vcard:hasEmail>
     <!-- Phone -->
     <vcard:hasTelephone>+33476635200</vcard:hasTelephone>
     <!-- Unique Identifier -->
@@ -55,7 +55,7 @@
       </vcard:Address>
     </vcard:hasAddress>
     <!-- Email -->
-   <vcard:hasEmail>contact@resif.fr</vcard:hasEmail>
+   <vcard:hasEmail>mailto:contact@resif.fr</vcard:hasEmail>
     <!-- Phone -->
     <vcard:hasTelephone>+33476635200</vcard:hasTelephone>
     <!-- Unique Identifier -->
@@ -69,7 +69,7 @@
     <!-- Qualification -->
    <schema:qualifications>Researcher, Science Management, Director of RESIF (Réseau Sismologique et géodésique Français)</schema:qualifications>
     <!-- CV It could be a webpage or electronic document. -->
-     <vcard:hasURL>https://isterre.fr/annuaire/pages-web-du-personnel/andrea-walpersdorf/?id_auteur=76</vcard:hasURL>
+     <vcard:hasURL>https://isterre.fr/annuaire/pages-web-du-personnel/andrea-walpersdorf/?id_auteur=76/</vcard:hasURL>
   </eposap:Person>
 
   <!-- EPOS Person -->
@@ -86,7 +86,7 @@
       </vcard:Address>
     </vcard:hasAddress>
     <!-- Email -->
-    <vcard:hasEmail>datacenter@resif.fr</vcard:hasEmail>
+    <vcard:hasEmail>mailto:datacenter@resif.fr</vcard:hasEmail>
     <!-- Phone -->
     <vcard:hasTelephone>+33476635200</vcard:hasTelephone>
     <!-- Unique Identifier -->
@@ -100,7 +100,7 @@
     <!-- Qualification -->
     <schema:qualifications>Engineer, technical leader of the RESIF Data Center</schema:qualifications>
     <!-- CV It could be a webpage or electronic document. -->
-     <vcard:hasURL>https://isterre.fr/auteur/pequegnat-catherine</vcard:hasURL>
+     <vcard:hasURL>https://www.isterre.fr/spip.php?page=auteur&amp;id_auteur=59&amp;lang=fr/</vcard:hasURL>
   </eposap:Person>
 
   <!-- EPOS Person -->
@@ -119,7 +119,7 @@
       </vcard:Address>
     </vcard:hasAddress>
     <!-- Email -->
-    <vcard:hasEmail>gricad-contact@univ-grenoble-alpes.fr</vcard:hasEmail>
+    <vcard:hasEmail>mailto:gricad-contact@univ-grenoble-alpes.fr</vcard:hasEmail>
     <!-- Phone -->
     <vcard:hasTelephone>+</vcard:hasTelephone>
     <!-- Unique Identifier -->
@@ -144,22 +144,22 @@
     <vcard:hasAddress>
       <vcard:Address>
         <vcard:street-address>Université Grenoble Alpes,CS 40700 </vcard:street-address>
-        <vcard:locality>Grenoble</vcard:locality>
+        <vcard:locality>Gières</vcard:locality>
         <vcard:postal-code>38058</vcard:postal-code>
         <vcard:country-name>France</vcard:country-name>
       </vcard:Address>
     </vcard:hasAddress>
-    <!-- Phone -->
-    <vcard:hasTelephone>+33457422142 </vcard:hasTelephone>
     <!-- Email -->
-   <!-- <vcard:hasEmail>info@gfz-potsdam.de</vcard:hasEmail>-->
+    <vcard:hasEmail>mailto:info@univ-grenoble-alpes.fr</vcard:hasEmail>
     <!-- Website -->
     <vcard:hasURL>https://www.univ-grenoble-alpes.fr/en/</vcard:hasURL>
+    <vcard:hasLogo>https://www.univ-grenoble-alpes.fr/logo-uga.png</vcard:hasLogo>
     <!-- Logo -->
-     <!-- Unique Identifier -->
-    <!-- FIXME <dct:identifier>PIC:999997930</dct:identifier> PIC UGA ???? -->
+    <!-- Unique Identifier -->
+    <!-- FIXME -->
+    <dct:identifier>PIC:999997930</dct:identifier>
     <!-- Scientific Contact -->
-     <!-- FIXME  <eposap:scientificContact>http://orcid.org/0000-0002-3580-651X</eposap:scientificContact> -->
+    <eposap:scientificContact>https://www.univ-grenoble-alpes.fr/en/</eposap:scientificContact>
     <!-- Spatial Coordinates -->
     <dct:spatial>
       <dct:Location>
@@ -182,20 +182,24 @@
     <vcard:organization-name xml:lang="fr">Centre de données sismologiques du Réseau Sismologique et géodésique Français</vcard:organization-name>
     <!-- Postal Address -->
     <vcard:hasAddress>
+      <vcard:Address>
        <vcard:street-address>Université Grenoble Alpes,ISTerre,CS 40700 </vcard:street-address>
         <vcard:locality>Grenoble Cedex 9</vcard:locality>
         <vcard:postal-code>38058</vcard:postal-code>
         <vcard:country-name>France</vcard:country-name>
+       </vcard:Address>
     </vcard:hasAddress>
     <!-- Email -->
     <vcard:hasEmail>datacenter@resif.fr</vcard:hasEmail>
     <!-- Website -->
     <vcard:hasURL>http://seismology.resif.fr/</vcard:hasURL>
     <!-- Logo -->
-   <!-- <vcard:hasLogo></vcard:hasLogo> -->
+    <!-- <vcard:hasLogo></vcard:hasLogo> -->
     <!-- Unique Identifier -->
     <!-- RESIF PIC from the EU Research Council PIC CNRS-->
     <dct:identifier>PIC:999997930</dct:identifier>
+    <!-- Scientific Contact -->
+    <eposap:scientificContact>https://www.isterre.fr/auteur/helle-pedersen</eposap:scientificContact>
     <!-- Spatial Coordinates -->
     <dct:spatial>
       <dct:Location>
@@ -205,20 +209,19 @@
     </dct:spatial>
     <!-- Type -->
     <dct:type>Public Research Institute</dct:type>
-     <!-- Scientific Contact -->
-     <eposap:scientificContact>mailto:Helle.Pedersen@univ-grenoble-alpes.fr</eposap:scientificContact>
     <!-- Legal Contact -->
     <eposap:legalContact>mailto:Andrea.Walperdorf@univ-grenoble-alpes.fr</eposap:legalContact>
     <!-- Financial Contact -->
     <eposap:financialContact>mailto:Andrea.Walpersdorf@univ-grenoble-alpes.fr</eposap:financialContact>
-    <!-- <eposap:facilityManager>mailto:Catherine.Pequegnat@univ-grenoble.fr</eposap:facilityManager> -->
+    <!-- <eposap:facilityManager>Catherine.Pequegnat@univ-grenoble.fr</eposap:facilityManager> -->
+  </eposap:Organisation>
 
   <eposap:WebService>
     <dct:title>FDSN Dataselect-WS - Resif data center (RESIF)</dct:title>
     <dct:description>FDSN Standard webservice at RESIF to download waveform data</dct:description>
     <!-- DEPRECATED?: <dcat:accessURL>http://ws.resif.fr/fdsnws/dataselect/1/query</dcat:accessURL> -->
     <dct:issued>2013-01-01T00:00:00</dct:issued>
-    <dct:modified>2017-09-12-01-01T00:00:00</dct:modified>
+    <dct:modified>2017-09-12T00:00:00</dct:modified>
     <dct:license>To be defined!</dct:license>
     <foaf:page>
       <foaf:primaryTopic>http://ws.resif.fr/fdsnws/dataselect/1/query?</foaf:primaryTopic>
@@ -355,8 +358,8 @@ modeling, RESIF, Dataselect, FDSN-WS,Seismic Waveform, EIDA</dcat:keyword>
      <dct:title>FDSN Station-WS - Resif data center (RESIF)</dct:title>
      <dct:description>FDSN Standard webservice at RESIF to download seismic metadata</dct:description>
      <!-- DEPRECATED?: <dcat:accessURL>http://ws.resif.fr/fdsnws/station/1/query</dcat:accessURL> -->
-       <dct:issued>2013-01-01T00:00:00</dct:issued>
-        <dct:modified>2017-09-12-01-01T00:00:00</dct:modified>
+     <dct:issued>2013-01-01T00:00:00</dct:issued>
+     <dct:modified>2017-09-12T00:00:00</dct:modified>
      <dct:license>To be defined!</dct:license>
      <foaf:page>
        <foaf:primaryTopic>http://ws.resif.fr/fdsnws/station/1/query?</foaf:primaryTopic>
@@ -375,7 +378,7 @@ modeling, RESIF, Dataselect, FDSN-WS,Seismic Waveform, EIDA</dcat:keyword>
      <!-- If this is the proper way to define the identifier is still under
      discussion. TODO No special character are accepted here. -->
      <dct:identifier>ws.resif.fr_fdsnws_station_1</dct:identifier>
-      <dct:issued>2013-01-01T00:00:00</dct:issued>
+     <dct:created>2016-01-01T00:00:00</dct:created>
      <!-- This property refers to the domain of resource (e.g. Seismology, GNSS etc.) -->
      <eposap:domain>
        Seismology
@@ -384,10 +387,7 @@ modeling, RESIF, Dataselect, FDSN-WS,Seismic Waveform, EIDA</dcat:keyword>
      <eposap:subDomain>
        Seismic stations
      </eposap:subDomain>
-     <dcat:keyword>seismology,
- seismicity, earthquakes, metadata, seismic hazard, earth structure,
-earthquake intensity, macroseismic, macroseismic information, RESIF, stationXML
-modeling</dcat:keyword>
+     <dcat:keyword>seismology, seismicity, earthquakes, metadata, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, RESIF, stationXML modeling</dcat:keyword>
      <!-- TODO A list of terms has to be agreed with EPOS. -->
      <eposap:operation>
        download
@@ -504,7 +504,7 @@ modeling</dcat:keyword>
      <!-- Publisher (previously responsibleParty) -->
      <!-- CNRS PIC from the EU Research Council -->
      <!-- FIXME A ':' character should be accepted to separate the schema from the ID. -->
-     <eposap:publisher>PIC:999997930</eposap:publisher> -->
+     <eposap:publisher>PIC:999997930</eposap:publisher>
      <dct:spatial>
        <dct:Location>
          <locn:geometry>POLYGON(180.0 -90.0, -180.0 -90.0, -180.0 90.0, 180.0 90.0, 180.0 -90.0)</locn:geometry>
