@@ -13,9 +13,8 @@
 
         <!-- NOA Organisation -->
 	<eposap:Organisation>
-		<dct:identifier></dct:identifier>
 		<vcard:fn>NOA National Observatory of Athens</vcard:fn>
-		<vcard:organization-name>NOA National Observatory of Athens, Institute of Geodynamics</vcard:organization-name>
+		<vcard:organization-name xml:lang="en">NOA National Observatory of Athens, Institute of Geodynamics</vcard:organization-name>
 		<vcard:hasAddress>
 			<vcard:Address>
 				<vcard:street-address>Lofos Nymphon 1 - Thissio</vcard:street-address>
@@ -27,17 +26,18 @@
 		<vcard:hasEmail></vcard:hasEmail>
 		<vcard:hasURL>www.noa.gr</vcard:hasURL>
 		<vcard:hasLogo>http://eida.gein.noa.gr/logos/hl.png</vcard:hasLogo>
+		<dct:identifier>PIC:999653677</dct:identifier>
+		<eposap:scientificContact>orcid:0000-0001-8733-8984</eposap:scientificContact>
 		<dct:spatial>
 			<dct:Location>
 				<locn:geometry>POINT(23.7181785 37.9733941 0)</locn:geometry>
 			</dct:Location>
 		</dct:spatial>
 		<dct:type>Governmental Research Institute</dct:type>
-		<eposap:scientificContact></eposap:scientificContact>
-		<eposap:legalContact></eposap:legalContact>
-		<eposap:financialContact></eposap:financialContact>
+		<eposap:legalContact>orcid:0000-0003-3597-7615</eposap:legalContact>
+		<eposap:financialContact>orcid:0000-0003-3597-7615</eposap:financialContact>
 		<eposap:isPartOf></eposap:isPartOf>
 		<eposap:associatedProjects></eposap:associatedProjects>
-	</eposap:Organisation>
+  </eposap:Organisation>
 
 </eposap:Epos>
