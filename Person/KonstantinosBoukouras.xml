@@ -11,9 +11,9 @@
         xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.epos-ip.org/ https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/master/schemas/EPOS-DCAT-AP.xsd">
 
-        <!-- Konstantinos Boukouras Person -->
+        <!-- Nikolaos Triantafyllis Person -->
         <eposap:Person>
-                <vcard:fn>Konstantinos, Boukouras</vcard:fn>
+                <vcard:fn>Nikolaos, Triantafyllis</vcard:fn>
                 <vcard:hasAddress>
                         <vcard:Address>
                                 <vcard:street-address>Lofos Nymphon - Thissio</vcard:street-address>
@@ -22,15 +22,15 @@
                                 <vcard:country-name>Greece</vcard:country-name>
                         </vcard:Address>
                 </vcard:hasAddress>
-                <vcard:hasEmail>kbouk@noa.gr</vcard:hasEmail>
-                <vcard:hasTelephone>+302103490189</vcard:hasTelephone>
-                <vcard:hasURL></vcard:hasURL>
-                <dct:identifier></dct:identifier>
-                <eposap:affiliation></eposap:affiliation>
+                <vcard:hasEmail>triantafyl@noa.gr</vcard:hasEmail>
+                <vcard:hasTelephone>+302103421013</vcard:hasTelephone>
+                <vcard:hasURL>http://students.ceid.upatras.gr/~triantafyl</vcard:hasURL>
+                <dct:identifier>orcid:0000-0002-4011-0971</dct:identifier>
+                <eposap:affiliation>PIC:999653677</eposap:affiliation>
                 <dct:language>
 			<dct:LinguisticSystem>en</dct:LinguisticSystem>
 		</dct:language>
                 <schema:qualifications>IT and Data Management</schema:qualifications>
-        </eposap:Person>
+    </eposap:Person>
 
 </eposap:Epos>
