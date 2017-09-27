@@ -25,12 +25,12 @@
                 <vcard:hasEmail>kbouk@noa.gr</vcard:hasEmail>
                 <vcard:hasTelephone>+302103490189</vcard:hasTelephone>
                 <vcard:hasURL></vcard:hasURL>
-                <dct:identifier></dct:identifier>
-                <eposap:affiliation></eposap:affiliation>
+                <dct:identifier>scopusid:35217615100</dct:identifier>
+                <eposap:affiliation>PIC:999653677</eposap:affiliation>
                 <dct:language>
 			<dct:LinguisticSystem>en</dct:LinguisticSystem>
 		</dct:language>
                 <schema:qualifications>IT and Data Management</schema:qualifications>
-        </eposap:Person>
+    </eposap:Person>
 
 </eposap:Epos>
